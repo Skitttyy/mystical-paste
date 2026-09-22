@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "vonware",
+    "name": "Vonware",
+    "description": "vonware?",
+    "version": "0.1",
+    "mcversion": "1.12.2",
+    "logoFile": "",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Spikestinger",
+      "BlazyParty"
+    ],
+    "screenshots": [],
+    "dependencies": []
+  }
+]

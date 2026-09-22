@@ -1,0 +1,84 @@
+{
+  "gui_click": {
+    "category": "master",
+    "sounds": [ "vonware:click" ]
+  },
+
+  "gui_module_enable": {
+    "category": "master",
+    "sounds": [ "vonware:module_enable" ]
+  },
+
+  "gui_module_disable": {
+    "category": "master",
+    "sounds": [ "vonware:module_disable" ]
+  },
+
+  "gui_module_open": {
+    "category": "master",
+    "sounds": [ "vonware:module_open" ]
+  },
+
+  "gui_module_close": {
+    "category": "master",
+    "sounds": [ "vonware:module_close" ]
+  },
+
+  "gui_category_open": {
+    "category": "master",
+    "sounds": [ "vonware:category_open" ]
+  },
+
+  "gui_category_close": {
+    "category": "master",
+    "sounds": [ "vonware:category_close" ]
+  },
+
+  "gui_colorpicker_open": {
+    "category": "master",
+    "sounds": [ "vonware:colorpicker_open" ]
+  },
+  "gui_colorpicker_close": {
+    "category": "master",
+    "sounds": [ "vonware:colorpicker_close" ]
+  },
+
+  "gui_globalcolorsync": {
+    "category": "master",
+    "sounds": [ "vonware:globalcolorsync" ]
+  },
+
+  "secretshiny": {
+    "category": "master",
+    "sounds": [ "vonware:secretshiny" ]
+  },
+
+  "gui_enum_open": {
+    "category": "master",
+    "sounds": [ "vonware:enum_open" ]
+  },
+  "gui_enum_close": {
+    "category": "master",
+    "sounds": [ "vonware:enum_close" ]
+  },
+
+  "startup_music": {
+    "category": "music",
+    "sounds": [ "vonware:startup_music" ]
+  },
+
+  "adaptation_wheel_spin": {
+    "category": "master",
+    "sounds": [ "vonware:adaptation_wheel_spin" ]
+  },
+
+  "rezero_death": {
+    "category": "master",
+    "sounds": [ "vonware:rezero_death" ]
+  },
+
+  "startup": {
+    "category": "master",
+    "sounds": [ "vonware:startup" ]
+  }
+}
