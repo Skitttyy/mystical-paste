@@ -53,7 +53,7 @@ public class Colors extends Module {
       this.rainbowMode = new Setting<RainbowMode>("RainbowMode", Colors.RainbowMode.Static, (v) -> (Boolean)this.rainbow.getValue());
       this.rainbowSaturation = new Setting<Integer>("R-Saturation", 100, 0, 100, (v) -> (Boolean)this.rainbow.getValue());
       this.rainbowLightness = new Setting<Integer>("R-Lightness", 85, 0, 100, (v) -> (Boolean)this.rainbow.getValue());
-      this.rainbowSpeed = new Setting<Float>("RainbowSpeed", 1.3F, 0.0F, 5.0F, (v) -> (Boolean)this.rainbow.getValue());
+      this.rainbowSpeed = new Setting<Float>("RainbowSpeed", 5.0F, 0.0F, 15.0F, (v) -> (Boolean)this.rainbow.getValue());
       this.rainbowHue = new Setting<Float>("RainbowHue", 4.0F, 0.0F, 10.0F, (v) -> (Boolean)this.rainbow.getValue());
       this.futureSync = new Setting<Boolean>("FutureColorSync", false);
       this.futureFriendSync = new Setting<Boolean>("FutureFriendSync", false);
