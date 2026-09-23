@@ -25,7 +25,7 @@ public class Fonts extends Module {
    public Fonts() {
       super("Fonts", "Uses Custom Font for text", Module.Category.CLIENT, true, false, false);
       this.fontQuality = new Setting<CFont.FontQuality>("Quality", CFont.FontQuality.HIGH);
-      this.fontName = new Setting<String>("FontName", "Verdana");
+      this.fontName = new Setting<String>("FontName", "Impact");
       this.antiAlias = new Setting<Boolean>("AntiAlias", true);
       this.fractionalMetrics = new Setting<Boolean>("Metrics", true);
       this.fontSize = new Setting<Integer>("Size", 18, 12, 30);
