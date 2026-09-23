@@ -151,24 +151,24 @@ public class Module extends Feature {
    public TextComponentString getNotifierOn() {
       Manager manager = Manager.getInstance();
       if (manager != null && manager.notifier.getValue() == Manager.Notifier.Iggyware) {
-         return new TextComponentString(ChatFormatting.BLACK + "<Iggyware> " + ChatFormatting.WHITE + this.getDisplayName() + " was" + ChatFormatting.GREEN + " enabled" + ChatFormatting.RESET);
+         return new TextComponentString(ChatFormatting.BLACK + "<niger ware> " + ChatFormatting.WHITE + this.getDisplayName() + " was" + ChatFormatting.GREEN + " enabled" + ChatFormatting.RESET);
       } else {
          String global = HexColorText.color(Global.getGlobalColor().getRGB());
          String moduleColor = manager != null ? HexColorText.color(manager.getEffectiveColor(manager.mysticModuleColor)) : global;
          String wasColor = manager != null ? HexColorText.color(manager.getEffectiveColor(manager.mysticWasColor)) : ChatFormatting.WHITE.toString();
-         return new TextComponentString(ChatFormatting.WHITE + "[" + global + "Mystic" + ChatFormatting.WHITE + "] " + moduleColor + this.getDisplayName() + wasColor + " was" + ChatFormatting.GREEN + ChatFormatting.BOLD + " enabled!" + ChatFormatting.RESET);
+         return new TextComponentString(ChatFormatting.WHITE + "[" + global + "alberto" + ChatFormatting.WHITE + "] " + moduleColor + this.getDisplayName() + wasColor + " was" + ChatFormatting.GREEN + ChatFormatting.BOLD + " enabled!" + ChatFormatting.RESET);
       }
    }
 
    public TextComponentString getNotifierOff() {
       Manager manager = Manager.getInstance();
       if (manager != null && manager.notifier.getValue() == Manager.Notifier.Iggyware) {
-         return new TextComponentString(ChatFormatting.BLACK + "<Iggyware> " + ChatFormatting.WHITE + this.getDisplayName() + " was" + ChatFormatting.RED + " disabled" + ChatFormatting.RESET);
+         return new TextComponentString(ChatFormatting.BLACK + "<niger ware> " + ChatFormatting.WHITE + this.getDisplayName() + " was" + ChatFormatting.RED + " disabled" + ChatFormatting.RESET);
       } else {
          String global = HexColorText.color(Global.getGlobalColor().getRGB());
          String moduleColor = manager != null ? HexColorText.color(manager.getEffectiveColor(manager.mysticModuleColor)) : global;
          String wasColor = manager != null ? HexColorText.color(manager.getEffectiveColor(manager.mysticWasColor)) : ChatFormatting.WHITE.toString();
-         return new TextComponentString(ChatFormatting.WHITE + "[" + global + "Mystic" + ChatFormatting.WHITE + "] " + moduleColor + this.getDisplayName() + wasColor + " was" + ChatFormatting.RED + ChatFormatting.BOLD + " disabled!" + ChatFormatting.RESET);
+         return new TextComponentString(ChatFormatting.WHITE + "[" + global + "alberto" + ChatFormatting.WHITE + "] " + moduleColor + this.getDisplayName() + wasColor + " was" + ChatFormatting.RED + ChatFormatting.BOLD + " disabled!" + ChatFormatting.RESET);
       }
    }
 

@@ -25,11 +25,11 @@ public class Fonts extends Module {
    public Fonts() {
       super("Fonts", "Uses Custom Font for text", Module.Category.CLIENT, true, false, false);
       this.fontQuality = new Setting<CFont.FontQuality>("Quality", CFont.FontQuality.HIGH);
-      this.fontName = new Setting<String>("FontName", "Verdana");
+      this.fontName = new Setting<String>("FontName", "Impact");
       this.antiAlias = new Setting<Boolean>("AntiAlias", true);
       this.fractionalMetrics = new Setting<Boolean>("Metrics", true);
       this.fontSize = new Setting<Integer>("Size", 18, 12, 30);
-      this.fontStyle = new Setting<FontStyle>("Style", Fonts.FontStyle.PLAIN);
+      this.fontStyle = new Setting<FontStyle>("Style", Fonts.FontStyle.BOLD_ITALIC);
       this.fontShadow = new Setting<Boolean>("Font Shadow", true);
       this.shadowOffset = (new Setting<Float>("Shadow Offset", 1.0F, 0.0F, 2.0F, (v) -> (Boolean)this.fontShadow.getValue(), "Controls how far the custom-font shadow is offset from the text")).setStep(0.1F);
       this.register(this.fontQuality);
