@@ -7,7 +7,7 @@ import fat.vonware.util.shader.menu.MenuGLSLShader;
 public class MainMenu extends Module {
    public Setting<Boolean> customButtons = new Setting<Boolean>("CustomButtons", false);
    public Setting<Boolean> startupMusic = new Setting<Boolean>("CustomMenuMusic", false);
-   public Setting<Integer> maxFps = new Setting<Integer>("MaxFPS", 60, 10, 300, (v) -> true);
+   public Setting<Integer> maxFps = new Setting<Integer>("MaxFPS", 5, 5, 300, (v) -> true);
    public Setting<Background> background;
    public Setting<Integer> colorOne;
    public Setting<Integer> colorTwo;
