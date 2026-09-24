@@ -102,7 +102,7 @@ public class CustomSplashProgress {
                CustomSplashProgress.uProgress = GL20.glGetUniformLocation(CustomSplashProgress.shaderProgram, "progress");
             }
 
-            CustomSplashProgress.titleRenderer = new SplashTextRenderer("/assets/vonware/fonts/Lora-Regular.ttf", 52.0F);
+            CustomSplashProgress.titleRenderer = new SplashTextRenderer("/assets/vonware/fonts/FoughtKnight.ttf", 104f);
             CustomSplashProgress.uiRenderer = new SplashTextRenderer("/assets/vonware/fonts/Lora-Regular.ttf", 13.0F);
 
             while(!CustomSplashProgress.done) {
@@ -199,12 +199,12 @@ public class CustomSplashProgress {
          }
 
          private void drawTitle(int w, int h) {
-            String title = "Mystic";
+            String title = "loading: Dogshit";
             int midX = w / 2;
             int titleY = h / 3;
             GL11.glEnable(3042);
             GL11.glBlendFunc(770, 771);
-            CustomSplashProgress.titleRenderer.drawString(title, (float)midX - (float)CustomSplashProgress.titleRenderer.getStringWidth(title) / 2.0F, (float)titleY, -1);
+            CustomSplashProgress.titleRenderer.drawString(title, (float)midX - (float)CustomSplashProgress.titleRenderer.getStringWidth(title) / 2.0F, (float)titleY, Color.RED.getRGB());
          }
 
          private void drawProgressBar(int w, int h, ProgressManager.ProgressBar bar, float progress) {
